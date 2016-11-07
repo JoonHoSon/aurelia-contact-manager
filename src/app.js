@@ -16,5 +16,7 @@ export class App {
             { route: '', moduleId: 'no-selection', title: 'Select' },
             { route: 'contact/:id', moduleId: 'contact-detail', name: 'contacts' }
         ]);
+
+        this.router = router;
     }
 }

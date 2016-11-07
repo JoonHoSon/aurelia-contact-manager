@@ -27,6 +27,8 @@ define('app',['exports', './web-api'], function (exports, _webApi) {
             config.title = 'Contacts';
 
             config.map([{ route: '', moduleId: 'no-selection', title: 'Select' }, { route: 'contact/:id', moduleId: 'contact-detail', name: 'contacts' }]);
+
+            this.router = router;
         };
 
         return App;
